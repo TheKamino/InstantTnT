@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 public class Timer {
 
-    File file = new File("plugins/InstantTnT", "exploingTimer.yml");
+    File file = new File("plugins/InstantTnT", "explodingTimer.yml");
     YamlConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 
     public void setFirstTimer() {
